@@ -4,6 +4,11 @@
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="crawler4j-parent.crawler4j-examples-base.main" target="1.8" />
+      <module name="crawler4j-parent.crawler4j-examples-base.test" target="1.8" />
+      <module name="crawler4j-parent.crawler4j-examples-postgres.main" target="1.8" />
+      <module name="crawler4j-parent.crawler4j-examples-postgres.test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
